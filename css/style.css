@@ -1,0 +1,106 @@
+
+body{
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  position: relative;
+}
+
+h1{
+  margin: 20px 10px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  margin: 47px 0px 47px 10px;
+}
+
+img{
+  margin: 30px 10px 10px 10px;
+}
+
+.col-lg-4{
+  padding: 30px 56px;
+}
+
+.cont{
+  position: absolute;
+  top: 7rem;
+  left: 18rem;
+  right: 18rem;
+  z-index: 0;
+}
+
+.sedan button{
+ color: hsl(31, 77%, 52%);
+}
+
+.suv button{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button{
+  color: hsl(179, 100%, 13%);
+}
+
+.button{
+  border-radius: 50px;
+  font-size: 1rem;
+  margin: 30px 14px;
+}
+.button:hover{
+  border-color: #fff;
+  color: #fff;
+  background-color: Transparent;
+
+}
+
+
+
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.suv{
+  background-color:  hsl(184, 100%, 22%);
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+@media(max-width:991px){
+  .sedan{
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury{
+    border-radius: 0 0 10px 10px;
+  }
+
+}
+@media(max-width:1200px){
+  .cont{
+    top: 3rem;
+    left: 9rem;
+    right: 9rem;
+  }
+}
+@media(max-width:650px){
+  .cont{
+    top: 1.5rem;
+    left: 4.5rem;
+    right: 4.5rem;
+  }
+}
+
+@media(max-width:400px){
+  .cont{
+    top: 0.5rem;
+    left: 2rem;
+    right: 2rem;
+  }
+}
